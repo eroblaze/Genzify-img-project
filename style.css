@@ -1,0 +1,23 @@
+.product {
+  background-color: rgb(6, 6, 6);
+  width: fit-content;
+  border-radius: 10px;
+
+  /* IMPORTANT */
+  position: relative;
+}
+
+.product p {
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+
+  /* IMPORTANT */
+  position: absolute;
+  bottom: 80px;
+  left: 80px;
+}
